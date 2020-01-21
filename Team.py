@@ -5,7 +5,6 @@ def sol(n):
         results = list(map(int, input().split(" ")))
         if results.count(1) >= 2:
             count += 1
-
     return count
 
 
